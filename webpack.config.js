@@ -50,7 +50,7 @@ module.exports = (_, argv) => ({
         //app2: " app2@https://app-2-jet.vercel.app/remoteEntry.js",
       },
       exposes: {
-        //"./Component1": "./src/component1.jsx",
+        "./Component1": "./src/component1.jsx",
       },
       shared: {
         ...deps,
